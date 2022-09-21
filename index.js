@@ -19,3 +19,7 @@ mongoose
     console.log("Connected to database...")
   })
   .catch(err => console.log(err))
+
+app.get("/", (req, res) => {
+// send data to mongo
+})
